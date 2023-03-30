@@ -1,0 +1,15 @@
+Comando ejecutable:
+	sin comprimir -> pyinstaller --windowed --onefile --icon=./icono.ico snake.py
+
+	comprimido -> pyinstaller -w -F --onefile --icon=./icono.ico --upx-dir=C:\Users\Alberto\Downloads	\upx-4.0.1-win64\upx-4.0.1-win64 snake.py
+
+TO DO LIST:
+	- La manzana que no aparezca en el cuerpo.
+	- Manzana aparece en numero decimal.
+	- Si giras rapido 180º bug.
+			V- La manzana aparezca por debajo de la puntuación.
+	- Sonidos y musica.
+	- Fondo e imágenes.
+	- EE al llegar cierta puntuación.
+	- Si pulsas la X da error.
+	- No lo detecte como virus.
